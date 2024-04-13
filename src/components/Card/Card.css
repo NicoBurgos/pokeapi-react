@@ -1,0 +1,40 @@
+.card {
+	background-color: white;
+	width: 280px;
+	height: 280px;
+	display: block;
+
+	align-items: center;
+	border: 2px solid black;
+}
+
+.title {
+	background-color: aqua;
+	text-align: center;
+	padding: 10px 0;
+}
+
+strong {
+	text-transform: capitalize;
+}
+
+.img-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	padding-top: 10px;
+	max-width: 200px;
+	max-height: 180px;
+	min-width: 200px;
+	min-height: 180px;
+}
+
+.types {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	color: white;
+}

@@ -1,0 +1,39 @@
+.counter-container {
+	background-color: white;
+	min-width: 200px;
+	padding: 10px 10px;
+	border: 2px solid black;
+	margin-bottom: 20px;
+}
+
+.counter-title {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	color: black;
+	align-items: center;
+	padding: 10px 0;
+	justify-content: center;
+	gap: 5px;
+}
+
+span {
+	color: white;
+}
+
+p,
+span {
+	display: block;
+}
+
+.counter-tags {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tags-container {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+}

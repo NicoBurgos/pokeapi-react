@@ -1,0 +1,23 @@
+.nav {
+	display: flex;
+	padding: 20px 10px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: red;
+}
+
+h1,
+a {
+	width: 10%;
+	color: white;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+}
+
+#search {
+	width: 250px;
+	height: 30px;
+}

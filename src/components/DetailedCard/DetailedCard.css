@@ -1,0 +1,51 @@
+.detailed-card {
+	display: flex;
+	flex-direction: column;
+}
+
+.pokemon-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.pokemon {
+	display: flex;
+	gap: 50px;
+	justify-content: space-evenly;
+}
+
+.data-container {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.types {
+	display: flex;
+	gap: 10px;
+}
+
+.detailed-title {
+	display: block;
+	text-transform: capitalize;
+	background-color: white;
+	margin-top: 20px;
+}
+
+.detailed-title h1 {
+	color: black;
+}
+
+.type-counter-container {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	color: white;
+	text-align: center;
+}
+
+.error-message {
+	padding: 20px 5px;
+}
